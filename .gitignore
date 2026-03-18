@@ -1,0 +1,6 @@
+# Ejecutable
+gestionador-tickets.exe
+# Carpetas
+output/
+build/
+.vscode/
