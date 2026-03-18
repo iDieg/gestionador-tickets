@@ -1,7 +1,5 @@
 # Sistema Gestor de Requerimientos (Tickets)
 
-Un sistema de consola robusto y eficiente desarrollado en lenguaje C para la creación, lectura, actualización y eliminación (CRUD) de tickets de propósito general. 
-
 Este proyecto fue diseñado tomando inspiración de los flujos operativos reales de los call centers y mesas de ayuda, enfocándose en la rapidez y la organización para optimizar la atención de solicitudes, quejas, tareas o pedidos dentro de un entorno empresarial.
 
 ## Autores
@@ -27,12 +25,12 @@ Este proyecto consolida conceptos clave de la programación estructurada:
 
 ### Descargar el ejecutable (Solo Windows)
 1. Ve a la sección de [Releases](../../releases) de este repositorio.
-2. Descarga el archivo `tickets.exe` de la última versión.
+2. Descarga el archivo `gestionador-tickets.exe` de la última versión.
 3. Haz doble clic sobre el archivo descargado para iniciar el sistema en tu terminal.
 
-### Opción 2: Compilar desde el código fuente
+### Compilar desde el código fuente
 Si deseas compilar el código por tu cuenta, necesitas tener instalado un compilador de C (como GCC vía MinGW/MSYS2 en Windows, o GCC estándar en Linux/macOS).
 
-1. Clona este repositorio:
+Clona el repositorio y puedes compilarlo en tu consola.
    ```bash
-   git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
+   git clone [https://github.com/iDieg/gestionador-tickets](https://github.com/iDieg/gestionador-tickets)
