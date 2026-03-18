@@ -33,4 +33,4 @@ Si deseas compilar el código por tu cuenta, necesitas tener instalado un compil
 
 Clona el repositorio y puedes compilarlo en tu consola.
    ```bash
-   git clone [https://github.com/iDieg/gestionador-tickets](https://github.com/iDieg/gestionador-tickets)
+   git clone https://github.com/iDieg/gestionador-tickets.git
