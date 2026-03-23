@@ -7,6 +7,10 @@ Este proyecto fue diseñado tomando inspiración de los flujos operativos reales
 * **Ricardo Herrera**
 * **Adriana Cuevas**
 
+# Actualización
+* Se actualizó la interfaz, menú interactivo más intuitivo y fácil de aprender.
+* Se añadieron colores al menú interactivo y optimización de código.
+
 ## Características y Funcionalidades
 El sistema opera a través de un menú interactivo en la terminal que permite realizar las siguientes acciones en tiempo real:
 * **Generar Tickets:** Registro de nuevas solicitudes asignando automáticamente un número de ID único, almacenando el título y una descripción detallada.
