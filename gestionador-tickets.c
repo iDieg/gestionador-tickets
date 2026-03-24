@@ -177,12 +177,12 @@ int main() {
                 listar_tickets(); 
                 break;
             case 3: 
-                actualizar_estado(); // Esta es la opción 3
+                actualizar_estado();
                 printf("\nPresione Enter para continuar...");
                 limpiar_buffer(); getchar();
                 break;
             case 4: 
-                ver_ticket();        // ¡Aquí estaba el vacío! Ahora llama a la función.
+                ver_ticket();
                 break;
             case 5: 
                 printf(AMARILLO "Saliendo del sistema...\n" RESET); 
