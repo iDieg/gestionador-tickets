@@ -128,10 +128,13 @@ void ver_ticket() {
     if (id_buscar == 0) {
         for (int i = 0; i < num_tickets; i++) {
             printf("\n" AZUL "------------------------------------------" RESET);
-            printf("\nID: %d | Titulo: %s", tickets[i].id, tickets[i].titulo);
-            printf("\nDescripcion: %s", tickets[i].descripcion);
-            printf("\nEstado: %s", tickets[i].estado);
+            printf("\n" BLANCO_B "ID: %d | Titulo: %s", tickets[i].id, tickets[i].titulo);
+            printf("\n" BLANCO_B "Descripcion: %s", tickets[i].descripcion);
+            printf("\n" BLANCO_B "Estado: %s", tickets[i].estado);
         }
+        printf("\n" AZUL "------------------------------------------" RESET);
+        printf("\n\n" AMARILLO"Presione Enter para continuar...");
+        limpiar_buffer(); getchar();
     } else {
         for (int i = 0; i < num_tickets; i++) {
             if (tickets[i].id == id_buscar) {
@@ -139,7 +142,7 @@ void ver_ticket() {
                 printf("\n" BLANCO_B "Titulo: " RESET "%s", tickets[i].titulo);
                 printf("\n" BLANCO_B "Descripcion: " RESET "%s", tickets[i].descripcion);
                 printf("\n" BLANCO_B "Estado: " RESET "%s\n", tickets[i].estado);
-                printf("\nPresione Enter para continuar...");
+                printf("\n" AMARILLO "Presione Enter para continuar...");
                 limpiar_buffer(); getchar();
                 return;
             }
